@@ -16,7 +16,7 @@ $(document).ready(function () {
     });
 
 
-    dataUrl = "assets/content/content.json"
+    dataUrl = "https://borsam.github.io/assets/jsons/content-test.json"
 
 
     $.getJSON(dataUrl, function (contents) {
@@ -70,7 +70,7 @@ $(document).ready(function () {
 
             for (var post = 0; post < 6; post++) {
                 $(".modal").attr('id', contents[3].properties[post].name);
-                $(".images_thumbnails").append('<div class="col-4 mb-4">' + '<div class="w-100">' + '<img data-toggle="modal"  data-target="#exampleModal" class="service_img" src="' + contents[3].properties[post].thumbnail + '" alt="Card image cap">' + '</div>' + '</div>');
+                $(".images_thumbnails").append('<div class="col-4 mb-4">' + '<div class="w-100">' + '<img data-toggle="modal"  data-target="#' + contents[3].properties[post].name + '"class="service_img" src="' + contents[3].properties[post].thumbnail + '" alt="Card image cap">' + '</div>' + '</div>');
                 owl.trigger('add.owl.carousel', [jQuery('<div class="item" data-hash="' + contents[3].properties[0].pics[post].id + '">' + '<img src="' + contents[3].properties[0].pics[post].img + '" alt="">' + '</div>')]);
                 owl.trigger('refresh.owl.carousel');
                 $(".menu_slider").append('<a href="#' + contents[3].properties[0].pics[post].id + '">' + '<img src="' + contents[3].properties[0].pics[post].img + '" alt="">' + '</a>')
