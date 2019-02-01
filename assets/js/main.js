@@ -20,7 +20,9 @@ $(document).ready(function () {
 
 
     $.getJSON(dataUrl, function (contents) {
-
+        let id;
+        let name;
+        let thumbnail;
         for (var cat = 0; cat < contents.length; cat++) {
             $(".side_category").append('<a href="#" id="' + contents[cat].id + '" class="list-group-item list-group-item-action pl-5"> ' + contents[cat].service + '</a>');
         };
@@ -35,7 +37,7 @@ $(document).ready(function () {
                 $(".modal").attr('id', contents[0].properties[post].name);
                 $(".images_thumbnails").append('<div class="col-4 mb-4">' + '<div class="w-100">' + '<img data-toggle="modal"  data-target="#' + contents[0].properties[post].name + '" class="service_img" src="' + contents[0].properties[post].thumbnail + '" alt="Card image cap">' + '</div>' + '</div>');
                 $(".menu_slider").append('<a href="#' + contents[0].properties[0].pics[post].id + '">' + '<img src="' + contents[0].properties[0].pics[post].img + '" alt="">' + '</a>')
-                
+
 
 
             }
@@ -65,7 +67,7 @@ $(document).ready(function () {
             RemoveHtml();
             $("#application, #website, #branding").removeClass("active item-active");
             $("#3d").addClass("active item-active");
-            
+
             for (var post = 0; post < 6; post++) {
                 $(".modal").attr('id', contents[3].properties[post].name);
                 $(".images_thumbnails").append('<div class="col-4 mb-4">' + '<div class="w-100">' + '<img data-toggle="modal"  data-target="#exampleModal" class="service_img" src="' + contents[3].properties[post].thumbnail + '" alt="Card image cap">' + '</div>' + '</div>');
@@ -95,7 +97,7 @@ $(document).ready(function () {
 
 
 
-       
+
 
 
 
