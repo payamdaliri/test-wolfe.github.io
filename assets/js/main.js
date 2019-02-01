@@ -16,7 +16,7 @@ $(document).ready(function () {
     });
 
 
-    dataUrl = "https://borsam.github.io/assets/jsons/content-test.json"
+    dataUrl = "assets/content/content.json"
 
 
     $.getJSON(dataUrl, function (contents) {
