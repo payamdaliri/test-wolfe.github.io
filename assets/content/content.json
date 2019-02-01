@@ -47,7 +47,7 @@
             },
             {
                 "type": "logo",
-                "id": "2",
+                "id": "3",
                 "name": "ofc",
                 "category": "minimal",
                 "subcategory": "eggsland",
@@ -65,49 +65,7 @@
                         "id": "three"
                     }
                 ]
-            },
-            {
-                "type": "logo",
-                "id": "3",
-                "name": "dada",
-                "category": "minimal",
-                "subcategory": "eggsland",
-                "thumbnail": "https://picsum.photos/600/400",
-                "pics": [{
-                        "img": "https://picsum.photos/600/400",
-                        "id": "one"
-                    },
-                    {
-                        "img": "https://picsum.photos/600/400",
-                        "id": "two"
-                    },
-                    {
-                        "img": "https://picsum.photos/600/400",
-                        "id": "three"
-                    }
-                ]
-            },
-            {
-                "type": "logo",
-                "id": "4",
-                "name": "see",
-                "category": "minimal",
-                "subcategory": "eggsland",
-                "thumbnail": "https://picsum.photos/600/400",
-                "pics": [{
-                        "img": "https://picsum.photos/600/400",
-                        "id": "one"
-                    },
-                    {
-                        "img": "https://picsum.photos/600/400",
-                        "id": "two"
-                    },
-                    {
-                        "img": "https://picsum.photos/600/400",
-                        "id": "three"
-                    }
-                ]
-            }
+            } 
         ]
     },
     {
