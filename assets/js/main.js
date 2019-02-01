@@ -1,6 +1,12 @@
 $(document).ready(function () {
 
-
+    new fullpage('#fullpage', {
+        sectionsColor: ['#fff', '#fff', '#fff', '#fff'],
+        navigation: true,
+        navigationPosition: 'right',
+        normalScrollElements: '.modal-dialog, .modal, ,.modal-backdrop.show, .images'
+    });
+    
     var owl = $('.owl-carousel').owlCarousel({
         items: 1,
         loop: false,
@@ -113,12 +119,7 @@ $(document).ready(function () {
     });
 
 
-    new fullpage('#fullpage', {
-        sectionsColor: ['#fff', '#fff', '#fff', '#fff'],
-        navigation: true,
-        navigationPosition: 'right',
-        normalScrollElements: '.modal-dialog, .modal, ,.modal-backdrop.show, .images'
-    });
+    
 
 
 
