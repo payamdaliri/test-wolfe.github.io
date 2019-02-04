@@ -26,16 +26,21 @@ $(document).ready(function () {
     // dataUrl = "https://borsam.github.io/assets/jsons/content-test.json"
 
 
-    var data;
-    $.ajax({
-        dataType: "json",
-        url: 'https://borsam.github.io/assets/jsons/content-test.json',
-        data: data,
-        success: function (data) {
-            // begin accessing JSON data here
-            console.log(data[0].service);
-        }
-    });
+    // var data;
+    // $.ajax({
+    //     dataType: "json",
+    //     url: 'https://borsam.github.io/assets/jsons/content-test.json',
+    //     data: data,
+    //     success: function (data) {
+    //         // begin accessing JSON data here
+    //         console.log(data[0].service);
+    //     }
+    // });
+
+    $.getJSON('https://borsam.github.io/assets/jsons/content-test.json', function (data) {
+		// begin accessing JSON data here
+			console.log(data[0].service);
+	});
 
 
     //Responsive Functions
