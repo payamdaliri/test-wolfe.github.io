@@ -16,6 +16,10 @@ body {
   background-color: #f9f9f9;
 }
 
+.images_thumbnails {
+  width: 100% !important;
+}
+
 /* .pg-pips ul li a.active,
 .pg-pips ul li:hover a.active {
     position: absolute;
