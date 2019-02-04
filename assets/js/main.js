@@ -33,7 +33,7 @@ $(document).ready(function () {
         data: data,
         success: function (data) {
             // begin accessing JSON data here
-            console.log(data[0].name);
+            console.log(data[0].service);
         }
     });
 
