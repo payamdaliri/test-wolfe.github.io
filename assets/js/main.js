@@ -35,29 +35,30 @@ $(document).ready(function () {
         event.preventDefault();
 
         // TODO
+        // Serialize the form data.
+        var formData = $(form).serialize();
+
+        // Submit the form using AJAX.
+        $.ajax({
+            type: 'POST',
+            url: $(form).attr('action'),
+            data: formData
+        }).done(function (response) {
+            // Make sure that the formMessages div has the 'success' class.
+            $(formMessages).removeClass('error');
+            $(formMessages).addClass('success');
+
+            // Set the message text.
+            $(formMessages).text(response);
+
+            // Clear the form.
+            $('#name').val('');
+            $('#email').val('');
+            $('#message').val('');
+        });
     });
 
-    // Serialize the form data.
-    var formData = $(form).serialize();
 
-    // Submit the form using AJAX.
-    $.ajax({
-        type: 'POST',
-        url: $(form).attr('action'),
-        data: formData
-    }).done(function (response) {
-        // Make sure that the formMessages div has the 'success' class.
-        $(formMessages).removeClass('error');
-        $(formMessages).addClass('success');
-
-        // Set the message text.
-        $(formMessages).text(response);
-
-        // Clear the form.
-        $('#name').val('');
-        $('#email').val('');
-        $('#message').val('');
-    });
 
 
     // var data;
