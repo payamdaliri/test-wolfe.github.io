@@ -60,32 +60,34 @@
     <div id="fullpage">
         <div class="section">
             <div class="container-fluid padding-c">
-                <div class="row">
-                    <div class="col-lg-6 col-12">
+                <div class="row" id="blockContainer">
+
+                    <div id="blockB" class="col-lg-6 col-12 mt-2 mt-lg-5 mt-lg-0 float-left ">
                         <h1>All you need is here</h1>
-                        <p class="lead mt-4">
+                        <p class="lead mt-0 mt-lg-4 ">
                             Leading digital agency with solid design and development expertise. We build mobile and web
                             products for startups and design intricate trading platforms.
                         </p>
-                        <div class="row mt-4 mb-5 pb-5">
-                            <div class="col-6"><img class="home_icons mb-2" src="assets/images/Web.svg" alt=""><span
-                                    class="h4 ml-3">Websites</span></div>
-                            <div class="col-6"><img class="home_icons mb-2" src="assets/images/Mobile.svg" alt=""><span
-                                    class="h4 ml-3">Applications</span></div>
-                            <div class="col-6"><img class="home_icons mb-2" src="assets/images/Branding.svg" alt=""><span
-                                    class="h4 ml-3">Branding</span></div>
-                            <div class="col-6"><img class="home_icons mb-2" src="assets/images/3D_Object.svg" alt=""><span
-                                    class="h4 ml-3">3D</span></div>
+                        <div class="row mt-4 mb-0 mb-lg-5 pb-2 pb-lg-5 text-center text-lg-left">
+                            <div class="col-3 col-lg-6"><img class="home_icons mb-2 d-block d-lg-inline mx-auto mx-lg-0"
+                                    src="assets/images/Web.svg" alt=""><span class="h4 ml-0 ml-lg-3">Websites</span></div>
+                            <div class="col-3 col-lg-6"><img class="home_icons mb-2 d-block d-lg-inline mx-auto mx-lg-0"
+                                    src="assets/images/Mobile.svg" alt=""><span class="h4 ml-0 ml-lg-3">Applications</span></div>
+                            <div class="col-3 col-lg-6"><img class="home_icons mb-2 d-block d-lg-inline mx-auto mx-lg-0"
+                                    src="assets/images/Branding.svg" alt=""><span class="h4 ml-0 ml-lg-3">Branding</span></div>
+                            <div class="col-3 col-lg-6"><img class="home_icons mb-2 d-block d-lg-inline mx-auto mx-lg-0"
+                                    src="assets/images/3D_Object.svg" alt=""><span class="h4 ml-0 ml-lg-3">3D</span></div>
                         </div>
-                        <div class="mt-5 pt-5 more_scroll">
+                        <div class="mt-0 mt-lg-5 pt-0 pt-lg-5 more_scroll">
                             <span class="blue_background d-inline-block">MORE</span>
-                            <img class="d-block mt-3" src="assets/images/arrow_down.svg" alt="">
+                            <img class="d-block mt-2 mx-auto mx-lg-0" src="assets/images/arrow_down.svg" alt="">
                         </div>
 
                     </div>
-                    <div class="col-lg-6 col-12 ">
-                        <img class="w-100" src="assets/images/illustration_wolfe.png" alt="">
+                    <div id="blockA" class="col-lg-6 col-12 mt-2 mt-lg-0 float-right ">
+                        <img class="w-100 wolfe" src="assets/images/illustration_wolfe.png" alt="">
                     </div>
+
                 </div>
             </div>
         </div>
@@ -93,26 +95,26 @@
             <h2 class="services_title">Our <span class="blue_background">Services</span></h2>
             <div class="container-fluid">
                 <div class="row full-h">
-                    <div class="col-3 px-0 pt-5 bg_secondary">
-                        <div class="pt-5">
-                            <div class="list-group side_category mt-5 pt-4">
-                                <!-- <a href="#" id="branding" class="list-group-item list-group-item-action active item-active pl-5 mt-5">
-                                            Branding
-                                        </a>
-                                        <a href="#" id="applications" class="list-group-item list-group-item-action pl-5">Applications</a>
-                                        <a href="#" id="websites" class="list-group-item list-group-item-action pl-5">Websites</a>
-                                        <a href="#" id="3D" class="list-group-item list-group-item-action pl-5">3D</a> -->
+                    <div class="col-12 col-lg-3 px-0 pt-0 pt-lg-5 bg_secondary">
+                        <div class="pt-0 pt-lg-5">
+                            <div class="list-group side_category mt-0 mt-lg-5 pt-0 pt-lg-4">
+                                <a href="#" id="branding" class="list-group-item list-group-item-action active item-active px-2  pl-lg-5">
+                                    Branding
+                                </a>
+                                <a href="#" id="applications" class="list-group-item list-group-item-action px-2  pl-lg-5">Applications</a>
+                                <a href="#" id="websites" class="list-group-item list-group-item-action px-2  pl-lg-5">Websites</a>
+                                <a href="#" id="3D" class="list-group-item list-group-item-action px-2  pl-lg-5">3D</a>
                             </div>
                         </div>
 
                     </div>
-                    <div class="col-9 pt-5 px-5 mt-5">
+                    <div class="col-12 col-lg-9 pt-0 pt-lg-5 px-5 mt-0 mt-lg-5">
 
-                        <div class="row pr-4 pt-4">
+                        <div class="row pr-lg-4 pt-3 pt-lg-4">
                             <div class="col-12">
                                 <form>
-                                    <div class="form-group pr-0 float-right form_filter">
-                                        <select class="form-control c-form-control-dropdown" id="exampleFormControlSelect1">
+                                    <div class="form-group pr-lg-0  float-lg-right form_filter">
+                                        <select class="form-control  mx-auto c-form-control-dropdown" id="exampleFormControlSelect1">
                                             <option>All</option>
                                             <option>2</option>
                                             <option>3</option>
@@ -123,43 +125,65 @@
                                 </form>
                             </div>
                             <div class="images_thumbnails row px-4">
-                                <!-- <div class="col-4 mb-4 ">
+                                <div class="col-lg-4 col-sm-6  mb-4 ">
                                     <div class="w-100">
-                                        <img data-toggle="modal" data-target="#exampleModal" class=" service_img" src="assets/images/Logo Design/2.png"
+                                        <img data-toggle="modal" data-target="#exampleModal" class=" service_img" src="https://picsum.photos/600/400"
                                             alt="Card image cap">
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-lg-4 col-sm-6 mb-4">
                                     <div class="w-100">
-                                        <img class=" service_img" src="assets/images/Logo Design/2.png" alt="Card image cap">
+                                        <img class=" service_img" src="https://picsum.photos/600/400" alt="Card image cap">
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-lg-4 col-sm-6 mb-4">
                                     <div class=" w-100">
-                                        <img class=" service_img" src="assets/images/Logo Design/2.png" alt="Card image cap">
+                                        <img class=" service_img" src="https://picsum.photos/600/400" alt="Card image cap">
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-lg-4 col-sm-6 mb-4">
                                     <div class=" w-100">
-                                        <img class=" service_img" src="assets/images/Logo Design/2.png" alt="Card image cap">
+                                        <img class=" service_img" src="https://picsum.photos/600/400" alt="Card image cap">
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-lg-4 col-sm-6 mb-4">
                                     <div class=" w-100">
-                                        <img class=" service_img" src="assets/images/Logo Design/2.png" alt="Card image cap">
+                                        <img class=" service_img" src="https://picsum.photos/600/400" alt="Card image cap">
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-lg-4 col-sm-6 mb-4">
                                     <div class=" w-100">
-                                        <img class=" service_img" src="assets/images/Logo Design/2.png" alt="Card image cap">
+                                        <img class=" service_img" src="https://picsum.photos/600/400" alt="Card image cap">
                                     </div>
-                                </div> -->
+                                </div>
+                            </div>
+                            <div class="owl-carousel-mobile owl-carousel owl-theme ">
+                                <div class="item ">
+                                    <img class="service_img" src="https://picsum.photos/600/400" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="service_img" src="https://picsum.photos/600/400" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="service_img" src="https://picsum.photos/600/400" alt="">
+                                </div>
+
+                                <div class="item ">
+                                    <img class="service_img" src="https://picsum.photos/600/400" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="service_img" src="https://picsum.photos/600/400" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="service_img" src="https://picsum.photos/600/400" alt="">
+                                </div>
+
                             </div>
 
                         </div>
-                        <div class="row px-3">
+                        <div class="row px-auto px-lg-3">
                             <div class="col-12">
-                                <button class="mr-1 float-right btn c_btn_primary"><strong>MORE</strong></button>
+                                <button class="mx-auto mr-lg-1 float-lg-right btn c_btn_primary"><strong>MORE</strong></button>
                             </div>
 
                         </div>
@@ -172,9 +196,9 @@
         <div class="section a_background">
             <div class="container-fluid padding-c">
                 <div class="row full-h ">
-                    <div class="col-lg-6 col-12 my-auto ">
+                    <div class="col-lg-6 col-12 my-auto offer">
                         <div>
-                            <h1>WHAT WE OFFER</h1>
+                            <h1 class="">WHAT WE OFFER</h1>
                             <p class=" lead mt-4">
                                 Our offer is simple. We run your ads for your business and drive customers to your
                                 store.
@@ -186,10 +210,10 @@
                         </div>
 
                     </div>
-                    <div class="col-lg-6 col-12 blue_bg text-center pt-5 ">
+                    <div class="col-lg-6 col-12 blue_bg text-center pt-lg-5 ">
                         <div>
                             <h2 class="about_title text-white pt-5 ">About <span class="white_background">Us</span></h2>
-                            <p class="lead text-white my-4 px-5">
+                            <p class="lead text-white my-lg-4 px-lg-5">
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                                 tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
                                 quis
@@ -238,16 +262,16 @@
                     </div>
                     <div class="col-lg-6 col-12 blue_bg p-5">
                         <div class=" p-5">
-                            <form>
+                            <form action="mail/mail.php" method="POST">
                                 <div class="row">
                                     <div class="form-group col-lg-6 col-12 mb-4">
                                         <label for="exampleInputName1">Your Name</label>
-                                        <input type="name" class="form-control c-form-control form-control-lg form_font_size"
+                                        <input type="name" name="name" class="form-control c-form-control form-control-lg form_font_size"
                                             id="exampleInputName1" aria-describedby="emailHelp" placeholder="Name">
                                     </div>
                                     <div class="form-group col-lg-6 col-12 mb-4">
                                         <label for="exampleInputEmail1">Your Email</label>
-                                        <input type="email" class="form-control c-form-control form-control-lg form_font_size"
+                                        <input type="email" name="email" class="form-control c-form-control form-control-lg form_font_size"
                                             id="exampleInputEmail1" placeholder="Email">
                                     </div>
 
@@ -255,7 +279,7 @@
                                     <div class="form-group col-12 mb-4">
                                         <label for="exampleFormControlTextarea1 ">Your Message</label>
                                         <textarea class="form-control c-form-control form-control-lg form_font_size textarea_h"
-                                            id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                                            id="exampleFormControlTextarea1" name="message" rows="3" placeholder="Message"></textarea>
                                     </div>
                                 </div>
                                 <button type="submit" class="float-right btn c-btn btn-outline-light px-5 btn-lg">Send</button>
@@ -283,31 +307,30 @@
     <!-- Image Gallery -->
     <div class="images">
 
-        <div class="modal fade"  tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
 
                 <div class="modal-content w-100">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><img src="assets/images/close.svg"
                             alt=""></button>
-                    <div class="popup_images owl-carousel owl-theme">
-                        <!-- <div class="item" data-hash="zero">
-                            <img src="assets/images/Logo Design/2.png" alt="">
+                    <div id="owl-c" class="popup_images owl-carousel owl-theme">
+                        <div class="item" data-hash="zero">
+                            <img src="https://picsum.photos/600/400" alt="">
                         </div>
                         <div data-hash="one" class="item">
-                            <img src="assets/images/Logo Design/2.png" alt="">
+                            <img src="https://picsum.photos/600/400" alt="">
                         </div>
                         <div data-hash="two" class="item">
-                            <img src="assets/images/Logo Design/2.png" alt="">
-                        </div> -->
+                            <img src="https://picsum.photos/600/400" alt="">
+                        </div>
 
                     </div>
 
                     <div class="menu_slider mx-auto mt-5">
-                        <!-- <a href="#zero"> <img src="assets/images/Logo Design/2.png" alt=""></a>
-                        <a href="#one"> <img src="assets/images/Logo Design/2.png" alt=""></a>
-                        <a href="#two"> <img src="assets/images/Logo Design/2.png" alt=""></a>
-                        <a href="#one"> <img src="assets/images/Logo Design/2.png" alt=""></a>
-                        <a href="#two"> <img src="assets/images/Logo Design/2.png" alt=""></a> -->
+                        <a href="#zero"> <img src="https://picsum.photos/600/400" alt=""></a>
+                        <a href="#one"> <img src="https://picsum.photos/600/400" alt=""></a>
+                        <a href="#two"> <img src="https://picsum.photos/600/400" alt=""></a>
+
                     </div>
 
                 </div>

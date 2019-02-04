@@ -6,6 +6,7 @@
         "properties": [{
                 "type": "logo",
                 "id": "1",
+                "carouselNum" : "num1",
                 "name": "rashin",
                 "category": "minimal",
                 "subcategory": "eggsland",
@@ -27,6 +28,7 @@
             {
                 "type": "logo",
                 "id": "2",
+                "carouselNum" : "num2",
                 "name": "mashin",
                 "category": "minimal",
                 "subcategory": "eggsland",
@@ -48,6 +50,7 @@
             {
                 "type": "logo",
                 "id": "3",
+                "carouselNum" : "num3",
                 "name": "ofc",
                 "category": "minimal",
                 "subcategory": "eggsland",
@@ -73,7 +76,8 @@
         "id": "application",
         "properties": [{
                 "type": "logo",
-                "id": "1",
+                "id": "4",
+                "carouselNum" : "num4",
                 "name": "what",
                 "category": "minimal",
                 "subcategory": "eggsland",
@@ -94,7 +98,8 @@
             },
             {
                 "type": "logo",
-                "id": "2",
+                "id": "5",
+                "carouselNum" : "num5",
                 "name": "nuh",
                 "category": "minimal",
                 "subcategory": "eggsland",
@@ -120,7 +125,8 @@
         "id": "website",
         "properties": [{
                 "type": "logo",
-                "id": "1",
+                "id": "6",
+                "carouselNum" : "num6",
                 "name": "server",
                 "category": "minimal",
                 "subcategory": "eggsland",
@@ -141,7 +147,8 @@
             },
             {
                 "type": "logo",
-                "id": "2",
+                "id": "7",
+                "carouselNum" : "num7",
                 "name": "ok",
                 "category": "minimal",
                 "subcategory": "eggsland",
@@ -167,7 +174,8 @@
         "id": "3d",
         "properties": [{
                 "type": "logo",
-                "id": "1",
+                "id": "8",
+                "carouselNum" : "num8",
                 "name": "yes",
                 "category": "minimal",
                 "subcategory": "eggsland",
@@ -188,7 +196,8 @@
             },
             {
                 "type": "logo",
-                "id": "2",
+                "id": "9",
+                "carouselNum" : "num9",
                 "name": "go",
                 "category": "minimal",
                 "subcategory": "eggsland",
